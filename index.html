@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='try'>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html;charset=windows-1251">
+	<title>Try Angular 1.5 </title>
+	<!-- <script src='./js/angular.min.js'></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-route.js"></script>
+	<script src='./js/app/app.module.js'></script>
+	<script src='./js/app/app.config.js'></script>
+
+	<script src='./js/app/blog-list/blog-list.module.js'></script>
+	<script src='./js/app/blog-list/blog-list.component.js'></script>
+
+
+	<style>
+		.new-class{
+			font-size: 72px;
+		}
+		.other-class{
+			font-size: 32px;
+		}
+		.new-class2{
+			font-size: 120px;
+		}
+	</style>
+
+</head>
+<body>
+<!-- 	<h1 class='new-class' ng-class="{'other-class' : name=='Cristian', 'new-class2': font==120}">Hello, 
+		<span ng-if='name'> {{ name }} !</span>
+		<span ng-if='!name'> World!</span>
+	</h1>
+	<input type="text" ng-model='name'>
+	<input type="text" ng-model='font' placeholder="font"> -->
+
+	<!--<div class="" ng-controller='BlogListController'><h1>{{ title }}</h1> <button ng-click='someClickTest()'>Click Me</button>
+	</div>-->
+
+	<blog-list></blog-list>
+</body>
+</html>
